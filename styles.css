@@ -1,0 +1,97 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DDDBDE;
+
+}
+div{
+    /* background-color: #fff;
+    width: max-content;
+    margin: 0 auto;
+    padding: 5%; */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 350px;
+    width: calc(100% - 40px);
+    padding: 44px;
+    margin-bottom: 28px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    min-width: 320px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0px !important;
+}
+a{
+    text-decoration: none;
+    color: #0067B8;
+    font-size: .8125rem;
+}
+p{
+    font-size: .8125rem;
+}
+input{
+    border: none;
+    border-bottom: 0.5px solid #333333;
+    width: 100%;
+    height: 36px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0,0,0,.4);
+    background-color: rgba(255,255,255,.4);
+    height: 32px;
+    height: 2rem;
+    padding: 6px 10px;
+    border-width: 1px;
+    border-color: #666;
+    border-color: rgba(0,0,0,.6);
+    height: 36px;
+    outline: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+    font-size: 15px;
+}
+button{
+    background-color: #0066B8;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    border: none;
+    width: 28%;
+    padding: 2%;
+    float: right;
+}
+input[type="submit"]{
+    background-color: #0066B8;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    border: none;
+    width: 28%;
+    padding: 2%;
+    float: right;
+}
+input[type="checkbox"]{
+    margin-top: 5%;
+    width: 20px;
+    height: 20px;
+}
+span{
+    align-items: center;
+}
+#two{
+    display: none;
+}
